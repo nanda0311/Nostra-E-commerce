@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nostra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css" integrity="sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="collection.js"></script> 
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+   
+</head>
+<body>
+
+    
+    <!---navbar-->
+    
+    <nav class="navbar">
+        <h1 >Nostra</h1>
+        <div class="navlinks">
+            <p class="navlinks"><a href="index.html">Home</a></p>
+            <p class="navlinks"><a href="collection.html">Collections</a></p>
+            <p class="navlinks"><a href="contact.html">Contacts</a></p>
+        </div>
+
+        <div class="navmenu" onclick="showSidebar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+     
+    </nav>
+    <!--side navbar-->
+    
+    <div class="side">
+        <p style="text-align: right;">
+            <i class="fas fa-light fa-xmark" onclick="hideSidebar()"></i>
+        </p>
+        <div class="side-navlinks">
+            <p class="side-navlinks"><a href="index.html">Home</a></p>
+            <p class="side-navlinks"><a href="collection.html">Collections</a></p>
+            <p class="side-navlinks"><a href="contact.html">Contacts</a></p>
+        </div>
+
+    </div>
+    
+    <!--product-->
+
+    <div class="product">
+        
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fas fa-regular fa-magnifying-glass"></i>
+        </form>
+        
+        <div class="products" id="products">
+            <div class="box">
+
+                <img src="https://source.unsplash.com/random/300x300/?black shirt">
+                <p> black shirt</p>
+
+            </div>
+            <div class="box">
+
+                <img src="https://source.unsplash.com/random/300x300/?whiteshirt">
+                <p> white shirt</p>
+
+            </div>
+            <div class="box">
+
+                <img src="https://source.unsplash.com/random/300x300/?blueshirt">
+                <p> blue shirt</p>
+
+            </div>
+            <div class="box">
+
+                <img src="https://source.unsplash.com/random/300x300/?shoes">
+                <p> shoes</p>
+
+            </div>
+            <div class="box">
+
+                <img src="https://source.unsplash.com/random/300x300/?slippers">
+                <p>slippers</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="https://source.unsplash.com/random/300x300/?coat">
+                <p> coat</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="https://source.unsplash.com/random/300x300/?hoodie">
+                <p> hoodie</p>
+
+            </div>
+
+            <div class="box">
+
+                <img src="https://source.unsplash.com/random/300x300/?whiteshoe">
+                <p> whiteshoe</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    
+
+    <!--Footer-->
+    <div class="footer">
+        <div>
+            <div>
+                <h1>Nostra</h1>
+                <p>Reprehenderit id cumque eos voluptates possimus facere iure odio eaque velit exercitationem.</p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+    
+            </div>
+            <div>
+                <p>@nostra.com</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="collection.js"></script>
+
+</body>
+</html>
